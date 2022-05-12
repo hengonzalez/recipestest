@@ -1,0 +1,25 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}   */
+
+.maincontainer {
+    display: flex !important;
+    justify-content: space-around !important;
+}
+
+nav{
+    margin-bottom: 2%;
+}
+
+
+.table {
+    text-align: center
+}
+
+.btn_create{
+    display: flex;
+    justify-content: right;
+}
