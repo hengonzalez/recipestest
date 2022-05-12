@@ -6,7 +6,7 @@ class MySQLConnection:
         # cambiar el usuario y la contraseña según sea necesario
         connection = pymysql.connect(host = 'localhost', #ip del servidor o nombre del host o localhost
                                     user = 'root', #usuario de la base de datos
-                                    password = 'root', #contraseña de la base de datos
+                                    password = '20Hgonz@lez22', #contraseña de la base de datos
                                     db = db, 
                                     charset = 'utf8mb4', #para que se puedan usar caracteres especiales
                                     cursorclass = pymysql.cursors.DictCursor,
