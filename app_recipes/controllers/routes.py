@@ -1,6 +1,6 @@
-from application import app 
-from application.models.users import User
-from application.models.recipes import Recipe
+from app_recipes import app 
+from app_recipes.models.users import User
+from app_recipes.models.recipes import Recipe
 from flask_bcrypt import Bcrypt
 
 from flask import render_template, request, redirect, url_for, session, flash 
